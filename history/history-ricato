@@ -111,3 +111,76 @@
   111  cd ..
   112  tree
   113  history > history/history-$HOSTNAME
+  114  tree
+  115  history > history/history-root-$HOSTNAME
+  116  tree
+  117  git add
+  118  git remote -v
+  119  cd history/
+  120  ls
+  121  git add history-ricato 
+  122  git add history-root-ricato 
+  123  git status
+  124  git commit
+  125  git commmit -m "Subiendo Archivos History prueba"
+  126  git commit -m "Subiendo Archivos History prueba"
+  127  git log
+  128  git push origin master
+  129  cd ..
+  130  git add src
+  131  git status
+  132  cd /src
+  133  ls
+  134  cd src
+  135  vim monitorSistema
+  136  ls
+  137  tree
+  138  cd ..
+  139  tree
+  140  cd src
+  141  ls
+  142  rm monitorSistema 
+  143  vim monitorSistema.sh
+  144  ls
+  145  ./monitorSistema.sh
+  146  ls -lrt
+  147  chmod monitorSistema.sh
+  148  chmod 777 monitorSistema.sh
+  149  ls
+  150  ./monitorSistema.sh
+  151  vim monitorSistema.sh
+  152  ./monitorSistema.sh
+  153  vim monitorSistema.sh
+  154  ./monitorSistema.sh
+  155  vim monitorSistema.sh
+  156  nmap localhost
+  157  sudo apt-get install nmap
+  158  nmap localhost
+  159  nmap ricato
+  160  top
+  161  free -m
+  162  free -g
+  163  vim monitorSistema.sh
+  164  ./monitorSistema.sh
+  165  free -help
+  166  free -h
+  167  free -t
+  168  vim monitorSistema.sh
+  169  ./monitorSistema.sh
+  170  ntop
+  171  sudo apt-get install ntop
+  172  ntop
+  173  sudo apt-get install ntop
+  174  ntop 14
+  175  ntop -P
+  176  vim monitorSistema.sh
+  177  ./monitorSistema.sh
+  178  ls
+  179  git add monitorSistema.sh
+  180  cd ..
+  181* 
+  182  cd history
+  183  ls
+  184  history > history/history-$HOSTNAME
+  185  cd ..
+  186  history > history/history-$HOSTNAME
