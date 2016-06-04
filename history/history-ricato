@@ -178,9 +178,68 @@
   178  ls
   179  git add monitorSistema.sh
   180  cd ..
-  181* 
-  182  cd history
-  183  ls
-  184  history > history/history-$HOSTNAME
-  185  cd ..
-  186  history > history/history-$HOSTNAME
+  181  cd history
+  182  ls
+  183  history > history/history-$HOSTNAME
+  184  cd ..
+  185  history > history/history-$HOSTNAME
+  186  git add history-ricato
+  187  cd history/
+  188  git add history-ricato
+  189  git status
+  190  git commit -m "Tarea script de monitoreo de sistema"
+  191  git log
+  192  git push origin master
+  193  exit
+  194  ls
+  195  cd LX2_profe/
+  196  ls
+  197  tree
+  198  vim file2.sh
+  199  tmp
+  200  cd src/temp
+  201  cd src
+  202  cd tmp
+  203  vim file2.sh
+  204  ls
+  205  more file2.sh
+  206  ls
+  207  cat variables.sh
+  208  exit
+  209  ls
+  210  cd LX2_ricato/
+  211  cd src
+  212  vim clase
+  213  ls
+  214  vim clase
+  215  vim clase.sh
+  216  vimSpecVar.sh
+  217  vim SpecVar.sh
+  218  ls
+  219  vim ejercicio1
+  220  vim ejercicio1.sh
+  221  chmod 777 ejercicio1.sh
+  222  ./ejercicio1.sh
+  223  vim ejercicio2.sh
+  224  vim ejercicio3.sh
+  225  vim ejercicio4.sh
+  226  ls
+  227  chmond 777 ejercicios*
+  228  chmod 777 ejercicios*
+  229  chmod 777 ejercicio*
+  230  ls
+  231  git status
+  232  git add src
+  233  git add /src
+  234  cd ..
+  235  git add /src
+  236  git add src/
+  237  git commit -m "Clase 4 JUN"
+  238  git push origin master
+  239  git log
+  240  cd ..
+  241  cd LX2_ricato/
+  242  cd history
+  243  ls
+  244  cd ..
+  245  history > history/history-$HOSTNAME
