@@ -1,0 +1,115 @@
+    1  sudo apt-get install git
+    2  sudo apt-get update
+    3  sudo apt-get install git
+    4  sudo apt-get install vim
+    5  df -lh
+    6  sudo apt-get install gparted
+    7  tree
+    8  sudo apt-get install tree
+    9  tree
+   10  su -
+   11  sudo su -
+   12  sudo apt-get gitk
+   13  sudo apt-get install gitk
+   14  pwd
+   15  ls
+   16  git remote -v
+   17  cd repoPrueba
+   18  ls
+   19  git remote -v
+   20  cd ..
+   21  git clone https://github.com/emvarg/LX2_emmanuel.git LX2_profe
+   22  ls
+   23  cd LX2_profe/
+   24  ls
+   25  tree
+   26  git remote -v
+   27  git remote rename origin repoProfe
+   28  git remote -v
+   29  cd ..
+   30  git clone https://github.com/ricato/LX2_ricardocarvajalt.git LX2_ricato
+   31  ls
+   32  cd LX2_ricato/
+   33  ls
+   34  sudo apt-get install spotify
+   35  sudo apt-get update
+   36  sudo apt-get install spotify
+   37  sudo apt-get install spotify-client
+   38  sudo apt-add-repository -y "deb http://repository.spotify.com stable non-free" &&
+   39  cls
+   40  clear
+   41  git clone https://github.com/ricato/Linux2.git repoPrueba
+   42  ls
+   43  cd repoPrueba/
+   44  ls
+   45  vim prueba.txt
+   46  git status
+   47  git add prueba.txt
+   48  git status
+   49  ls
+   50  git commit
+   51  ls
+   52  git commeti
+   53  git commit
+   54  git config --global user.email "ricatoct@gmail.com"
+   55  git config --global user.name "Ricardo"
+   56  git commit
+   57  git commit -a
+   58  git commit -m "Primer commit prueba"
+   59  git log
+   60  gitk
+   61  git remote -v
+   62  git remote rename origin rePrueba
+   63  git remote -v
+   64  git push rePrueba master
+   65  df
+   66  cd /home
+   67  git clone https://github.com/emvarg/LX2_emmanuel.git LX2_emmanuel
+   68  sudo git clone https://github.com/emvarg/LX2_emmanuel.git LX2_emmanuel
+   69  ls
+   70  cd LX2_emmanuel
+   71  ls
+   72  tree
+   73  git remote-v
+   74  git remote -v
+   75  git remote rename origin repoProfe
+   76  sudo git remote rename origin repoProfe
+   77  cd 
+   78  ls
+   79  git remote -v
+   80  df
+   81  ls 
+   82  git remote -v
+   83  cd /home
+   84  git remote -v
+   85  sudo git remote -v
+   86  ls
+   87  rm -R LX2_emmanuel
+   88  sudo rm -R LX2_emmanuel
+   89  ls
+   90  cd ..
+   91  git remote -v
+   92  ls
+   93  pwd
+   94  ls
+   95  cd /usr
+   96  ls
+   97  cd ..
+   98  ls
+   99  df
+  100  ls
+  101  cd LX2_ricato/
+  102  ls
+  103  mkdir error
+  104  mkdir history
+  105  mkdir misc
+  106  mkdir src
+  107  ls
+  108  cd src
+  109  mkdir
+  110  mkdir temp
+  111  cd ..
+  112  tree
+  113  history > history/history-$HOSTNAME
+  114  tree
+  115  history > history/history-root-$HOSTNAME
