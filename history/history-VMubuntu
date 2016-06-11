@@ -1,0 +1,136 @@
+    1  sudo apt-get install git
+    2  sudo apt-get install tree
+    3  cd
+    4  ls
+    5  pwd
+    6  git clone https://github.com/ricato/LX2_ricardocarvajalt
+    7  ls
+    8  cd LX2_ricardocarvajalt
+    9  ls
+   10  tree
+   11  hostname
+   12  history > history/history-VM$HOSTNAME
+   13  ls
+   14  tree
+   15  ls
+   16  mkdir problema1
+   17  ls
+   18  cd problema1
+   19  sudo apt-get install catdoc
+   20  ls
+   21  cd hojasDatos/
+   22  ls
+   23  xls2csv datos1.xls >> archivo.csv
+   24  ls
+   25  less archivo.csv 
+   26  rm archivo.csv 
+   27  ls
+   28  cd ..
+   29  sudo apt-get install vim
+   30  vim problema1.sh
+   31  pwd
+   32  ls
+   33  fg
+   34  ls
+   35  chmod 777 problema1.sh 
+   36  ls
+   37  tree
+   38  ./problema1.sh 
+   39  vim problema1.sh 
+   40  ./problema1.sh 
+   41  tree
+   42  cd datos?csv
+   43  cd datos_csv
+   44  ls
+   45  ls /lrt
+   46  ls -lrt
+   47  ls
+   48  cd hojasDatos/
+   49  ls
+   50  cd datos_csv/
+   51  ls
+   52  cd ..
+   53  rm datos
+   54  rm -r datos_csv/
+   55  cd ..
+   56  vim problema1.sh 
+   57  tree
+   58  ./problema1.sh 
+   59  tree
+   60  ls
+   61  file Datos 
+   62  cd hojasDatos/
+   63  ls
+   64  cd archivos_csv/
+   65  ls
+   66  file data-0.csv 
+   67  cd ..
+   68  iconv -f iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+   69  ls
+   70  vim problema1.sh 
+   71  ./problema1.sh 
+   72  tree
+   73  vim problema1.sh 
+   74  ls
+   75  cat erro2.log 
+   76  sudo ./problema1.sh 
+   77  tree
+   78  cat error2.log 
+   79  cat error1.log 
+   80  pg erro2.log 
+   81  ls /lrt
+   82  ls
+   83  ls /lrt
+   84  rm erro*
+   85  ls
+   86  cd hojasDatos/
+   87  ls
+   88  ls -lrt
+   89  cd ..
+   90  chmod 777 hojasDatos/
+   91  ls
+   92  chmod 755 hojasDatos/
+   93  ls
+   94  ./problema1.sh 
+   95  tree
+   96  cat error2.log 
+   97  cd hojasDatos/
+   98  ls
+   99  ls -lrt
+  100  chmod 777 archivos_csv/
+  101  ls -lrt
+  102  ./problema1.sh 
+  103  cd ..
+  104  ./problema1.sh 
+  105  tree
+  106  cd hojasDatos/
+  107  ls
+  108  cd archivos_csv/
+  109  ls
+  110  ls /lrt
+  111  ls -lrt
+  112  chmod 755 data}
+  113  chmod 755 data*
+  114  ls -lrt
+  115  cd ..
+  116  ./problema1.sh 
+  117  tree
+  118  cat error2.log 
+  119  vim problema1.sh 
+  120  ./problema1.sh 
+  121  tree
+  122  cd hojasDatos/
+  123  chmod 755 archivos_csv/
+  124  cd archivos_csv/
+  125  tree
+  126  cd ..
+  127  tree
+  128  git status
+  129  cd ..
+  130  cd LX2_ricardocarvajalt/
+  131  git status
+  132  git add problema1/
+  133  git log
+  134  history > history/history-VM$HOSTANAME
+  135  git status
+  136  history > history/history-VM$HOSTNAME
