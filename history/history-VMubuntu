@@ -134,3 +134,32 @@
   134  history > history/history-VM$HOSTANAME
   135  git status
   136  history > history/history-VM$HOSTNAME
+  137  git status
+  138  git add history/history-VMubuntu
+  139  cd history
+  140  ls
+  141  rm history-VM
+  142  ls
+  143  cd ..
+  144  git add history/history-VMubuntu
+  145  git commit -m "Problema1 del proyecto"
+  146  git config --global user.email "ricatoct@gmail.com"
+  147  git commit -m "Problema1 del proyecto"
+  148  git push origin master
+  149  git log
+  150  gnuplot
+  151  sudo apt-get install gnuplot
+  152  gnuplot
+  153  ls
+  154  cd problema1/
+  155  mkdir plot
+  156  ls
+  157  tree
+  158  cp hojasDatos/datos_graf/graf-0.dat plot/
+  159  tree
+  160  cd plot
+  161  gnuplot
+  162  cd ..
+  163  git status
+  164  cd ..
+  165  history > history/history-VM$HOSTNAME
