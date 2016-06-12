@@ -164,3 +164,109 @@
   164  ls -lrt
   165  rm history-VM
   166  history > history-VM$HOSTNAME
+  167  ls -lrt
+  168  git status
+  169  cd ..
+  170  git status
+  171  git add history/history-VMubuntu
+  172  git add problema1/plot/fig1.png
+  173  git add problema1/plot/error.log
+  174  git add problema1/plot/plot1.sh
+  175  git status
+  176  git commit -m "AVANCE PROBLEMA1 20160612"
+  177  git push origin master
+  178  git log
+  179  cd problema1/
+  180  cd plot
+  181  vim plot1.sh 
+  182  ./plot1.sh 
+  183  cat error.log 
+  184  ls
+  185  vim plot1.sh 
+  186  ./plot1.sh 
+  187  cat error.log 
+  188  vim plot1.sh 
+  189  ./plot1.sh 
+  190  cat error.log 
+  191  vim plot1.sh 
+  192  ./plot1.sh 
+  193  vim plot1.sh 
+  194  ./plot1.sh 
+  195  cat error.log 
+  196  vim plot1.sh 
+  197  ./plot1.sh 
+  198  cat error.log 
+  199  vim plot1.sh 
+  200  ./plot1.sh 
+  201  cat error.log 
+  202  vim plot1.sh 
+  203  ./plot1.sh 
+  204  vim plot1.sh 
+  205  ./plot1.sh 
+  206  cat error.log 
+  207  vim plot1.sh 
+  208  ./plot1.sh 
+  209  vim plot1.sh 
+  210  cat error.log 
+  211  vim plot1.sh 
+  212  ./plot1.sh 
+  213  cat error.log 
+  214  vim plot1.sh 
+  215  ./plot1.sh 
+  216  cat error.log 
+  217  vim plot1.sh 
+  218  ./plot1.sh 
+  219  cat error.log 
+  220  vim plot1.sh 
+  221  ./plot1.sh 
+  222  cat error.log 
+  223  vim plot1.sh 
+  224  ./plot1.sh 
+  225  cat error.log 
+  226  vim plot1.sh 
+  227  ./plot1.sh 
+  228  cat error.log 
+  229  vim plot1.sh 
+  230  ./plot1.sh 
+  231  cat error.log 
+  232  vim plot1.sh 
+  233  ./plot1.sh 
+  234  cat error.log 
+  235  vim plot1.sh 
+  236  ./plot1.sh 
+  237  cat error.log 
+  238  vim plot1.sh 
+  239  ./plot1.sh 
+  240  vim plot1.sh 
+  241  cat error.log 
+  242  vim plot1.sh 
+  243  ./plot1.sh 
+  244  cat error.log 
+  245  vim plot1.sh 
+  246  ./plot1.sh 
+  247  cat error.log 
+  248  vim plot1.sh 
+  249  ./plot1.sh 
+  250  cat error.log 
+  251  vim plot1.sh 
+  252  ./plot1.sh 
+  253  cat error.log 
+  254  vim plot1.sh 
+  255  ./plot1.sh 
+  256  cat error.log 
+  257  vim plot1.sh 
+  258  ./plot1.sh 
+  259  cat error.log 
+  260  vim plot1.sh 
+  261  ./plot1.sh 
+  262  cat error.log 
+  263  vim plot1.sh 
+  264  ./plot1.sh 
+  265  cat error.log 
+  266  cd ..
+  267  git status
+  268  cd history/
+  269  ls
+  270  ls /lrt
+  271  ls -lrt
+  272  history > history-VM$HOSTNAME
