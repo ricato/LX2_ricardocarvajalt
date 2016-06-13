@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATA=/home/ricardo/LX2_ricato/problema2/Datos
+DATA=/home/ricato/LX2_ricardocarvajalt/problema2/Datos
 OUT_DATA=$DATA/archivos_csv
 GRAF_DATA=$DATA/datos_graf
 FULL_DATA=$DATA/full_datos
@@ -32,19 +32,43 @@ done 2> error2.log
 
 
 ### Condicional
-if [-a $FULL_DATA/full.dat]
+
+if [-a $FULL_DATA/full.dat ]
 then
         rm $FULL_DATA/full.dat
-        echo "-------->>>> Archivo full.dat borrado"
+        echo "Archivo full.dat borrado"
 fi 2> errorIf.log
 
 
-
-for k in `find $GRAF_DATA -name "*.dat"`
+for k in `find $GRAF_DATA -name "*.dat" `
 do
         sed '3!d' $k >> $FULL_DATA/full.dat
         echo "Procesando archivo $k"
 done 2> error3.log
 
 
+#Grafica
+
+FMT_BEGIN=30000
+FMT_END=60000
+FMT_X_SHOW=%H:%M
+DATA_DONE=$FULL_DATA/full.dat
+
+
+
+graficar()
+{
+gnuplot << EOF 2> error.log
+set title "Consumo Electrico"
+#set timefmt "%Y%m%d %H%M"
+#set xrange ["$FMT_BEGIN":"$FMT_END"]
+#set format x "$FMT_X_SHOW"
+set terminal png
+set output 'fig1.png'
+plot "$DATA_DONE" using 2 with lines title "Elec"
+EOF
+
+}
+
+graficar
 
