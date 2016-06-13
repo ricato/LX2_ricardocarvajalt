@@ -270,3 +270,27 @@
   270  ls /lrt
   271  ls -lrt
   272  history > history-VM$HOSTNAME
+  273  ls -lrt
+  274  git status
+  275  cd ..
+  276  git status
+  277  git add history/history-VMubuntu problema1/plot/fig1.png
+  278  git add problema1/plot/plot1.sh
+  279  git status
+  280  git commit -m "Problema1:script plot1 ya grafica :-)"
+  281  git push origin master
+  282  cd problema1/
+  283  vim problema1.sh 
+  284  ./problema1.sh 
+  285  ls
+  286  cat error.log
+  287  vim problema1.sh 
+  288  ./problema1.sh 
+  289  vim problema1.sh 
+  290  ./problema1.sh 
+  291  vim problema1.sh 
+  292  ./problema1.sh 
+  293  git status
+  294  cd 
+  295  cd LX2_ricardocarvajalt/
+  296  history > history/history-VM$HOSTNAME
