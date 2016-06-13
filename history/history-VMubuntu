@@ -294,3 +294,31 @@
   294  cd 
   295  cd LX2_ricardocarvajalt/
   296  history > history/history-VM$HOSTNAME
+  297  git status
+  298  git add history/history-VMubuntu problema1/problema1.sh
+  299  git add problema1/error.log problema1/error3.log problema1/errorIf.log problema1/fig1.png problema1/hojasDatos/full_datos/ 
+  300  git status
+  301  git commit -m "PROBLEMA 1 TERMINADO :)"
+  302  git push origin master
+  303  git status
+  304  ls
+  305  git branch proyecto_programado
+  306  git checkout proyecto_programado 
+  307  ls
+  308  git status
+  309  mkdir problema2
+  310  mkdir problema3
+  311  tree
+  312  git status
+  313  cd problema2
+  314  ls
+  315  git status
+  316  cd ..
+  317  git add problema2/ problema3/
+  318  git commit -m "---Inicio proyecto programado---"
+  319  git log
+  320  git push origin proyecto_programado
+  321  git status
+  322  git checkout master
+  323  git status
+  324  history > history/history-VM$HOSTNAME
