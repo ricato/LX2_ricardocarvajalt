@@ -256,61 +256,61 @@
   256  git log
   257  cd LX2_ricato/
   258  ls
-  259  cd problema2
+  259  cd problema1
   260  ls
-  261  vim problema2.sh 
-  262  tree
-  263  head problema2.sh 
-  264  head -n 5 problema2.sh 
-  265  vim problema2.sh 
-  266  ./problema2.sh 
-  267  cd Datos
-  268  ls
-  269  cd archivos_csv/
-  270  ls
-  271  vim data-0.csv 
-  272  cd ..
-  273  cd ~/LX2_ricato/problema2
+  261  vim problema1.sh 
+  262  exit
+  263  cd LX2_ricato/
+  264  ls
+  265  cd problema2
+  266  ls
+  267  vim problema2.sh 
+  268  tree
+  269  head problema2.sh 
+  270  head -n 5 problema2.sh 
+  271  vim problema2.sh 
+  272  ./problema2.sh 
+  273  cd Datos
   274  ls
-  275  cdD
-  276  cd Datos/
-  277  ls
+  275  cd archivos_csv/
+  276  ls
+  277  vim data-0.csv 
   278  cd ..
-  279  ./problema2.sh 
-  280  tree
-  281  vim problema2.sh 
-  282  ./problema2.sh 
-  283  cd Datos/
-  284  ls
-  285  cd archivos_csv/
-  286  ls
-  287  head -n 5 data-0.csv > data-0.csv
-  288* vim data-0.cs
-  289  head -n 5 data-0.csv 
-  290  head -n 5 data-1.csv 
-  291  head -n 5 data-1.csv > nuevo.csv
-  292  cat nuevo.csv 
-  293  head -n 5 data-1.csv > nuevo.csv
-  294  cat nuevo.csv 
-  295  head -n 7 data-1.csv > nuevo.csv
-  296  cat nuevo.csv 
-  297  head -n 7 data-1.csv > data-1.csv 
-  298  cat data-1.csv 
-  299  cat nuevo.csv 
-  300  cp head -n 5 nuevo.csv nuevo.csv 
-  301  head -n 5 nuevo.csv >> nuevo.csv 
+  279  cd ~/LX2_ricato/problema2
+  280  ls
+  281  cdD
+  282  cd Datos/
+  283  ls
+  284  cd ..
+  285  ./problema2.sh 
+  286  tree
+  287  vim problema2.sh 
+  288  ./problema2.sh 
+  289  cd Datos/
+  290  ls
+  291  cd archivos_csv/
+  292  ls
+  293  head -n 5 data-0.csv > data-0.csv
+  294  vim data-0.cs
+  295  head -n 5 data-0.csv 
+  296  head -n 5 data-1.csv 
+  297  head -n 5 data-1.csv > nuevo.csv
+  298  cat nuevo.csv 
+  299  head -n 5 data-1.csv > nuevo.csv
+  300  cat nuevo.csv 
+  301  head -n 7 data-1.csv > nuevo.csv
   302  cat nuevo.csv 
-  303  head -n 5 nuevo.csv > nuevo.csv 
-  304  cat nuevo.csv 
-  305  cd ..
-  306  rm -r archivos_csv/
-  307  cd ..
-  308  vim problema2.sh 
-  309  ./problema2.sh 
-  310  vim problema2.sh 
-  311  ./problema2.sh 
-  312  vim problema2.sh 
-  313  ./problema2.sh 
+  303  head -n 7 data-1.csv > data-1.csv 
+  304  cat data-1.csv 
+  305  cat nuevo.csv 
+  306  cp head -n 5 nuevo.csv nuevo.csv 
+  307  head -n 5 nuevo.csv >> nuevo.csv 
+  308  cat nuevo.csv 
+  309  head -n 5 nuevo.csv > nuevo.csv 
+  310  cat nuevo.csv 
+  311  cd ..
+  312  rm -r archivos_csv/
+  313  cd ..
   314  vim problema2.sh 
   315  ./problema2.sh 
   316  vim problema2.sh 
@@ -330,38 +330,149 @@
   330  vim problema2.sh 
   331  ./problema2.sh 
   332  vim problema2.sh 
-  333  ls
-  334  cd  Datos/
-  335  ls
-  336  cd datos_graf/
-  337  ls
-  338  cut -d -f3 graf-1.dat 
-  339  cut -df3 graf-1.dat 
-  340  cut -d '' -f3 graf-1.dat 
-  341  cut -d ' ' -f3 graf-1.dat 
-  342  cut -d' -f3 graf-1.dat 
-
-  343  cat graf-1.dat 
-  344  cut -d
-  345  cut -d'' -f3 graf-1.dat 
-  346  cut -d' ' -f3 graf-1.dat 
+  333  ./problema2.sh 
+  334  vim problema2.sh 
+  335  ./problema2.sh 
+  336  vim problema2.sh 
+  337  ./problema2.sh 
+  338  vim problema2.sh 
+  339  ls
+  340  cd  Datos/
+  341  ls
+  342  cd datos_graf/
+  343  ls
+  344  cut -d -f3 graf-1.dat 
+  345  cut -df3 graf-1.dat 
+  346  cut -d '' -f3 graf-1.dat 
   347  cut -d ' ' -f3 graf-1.dat 
-  348  cd ..
-  349  vim problema2.sh 
-  350  ./problema2.sh 
-  351  vim problema2.sh 
-  352  ./problema2.sh 
-  353  vim problema2.sh 
-  354  ls
-  355  cat errorIf.log 
-  356  vim problema2.sh 
-  357  ./problema2.sh 
-  358  git status
-  359  git add Datos/ error1.log error2.log error3.log errorIf.log problema2.sh
-  360  git status
-  361  git commit -a "Avance problema2 datos procesados falta graficar"
-  362  git commit -m "Avance problema2 datos procesados falta graficar"
-  363  git log
-  364  cd ..
-  365  tree
-  366  history > history/history-$HOSTNAME
+  348  cut -d' -f3 graf-1.dat 
+  349  cat graf-1.dat 
+  350  cut -d
+  351  cut -d'' -f3 graf-1.dat 
+  352  cut -d' ' -f3 graf-1.dat 
+  353  cut -d ' ' -f3 graf-1.dat 
+  354  cd ..
+  355  vim problema2.sh 
+  356  ./problema2.sh 
+  357  vim problema2.sh 
+  358  ./problema2.sh 
+  359  vim problema2.sh 
+  360  ls
+  361  cat errorIf.log 
+  362  vim problema2.sh 
+  363  ./problema2.sh 
+  364  git status
+  365  git add Datos/ error1.log error2.log error3.log errorIf.log problema2.sh
+  366  git status
+  367  git commit -a "Avance problema2 datos procesados falta graficar"
+  368  git commit -m "Avance problema2 datos procesados falta graficar"
+  369  git log
+  370  cd ..
+  371  tree
+  372  history > history/history-$HOSTNAME
+  373  tree
+  374  git status
+  375  git add history/history-ricato
+  376  git commit -m "Avance history"
+  377  git push origin proyecto_programado
+  378  git checkout master
+  379  git status
+  380  exit
+  381  ls
+  382  cd LX2_ricato/
+  383  git pull origin proyecto_programado 
+  384  git pull origin master 
+  385  ls
+  386  cd problema2/
+  387  ls
+  388  vim problema2.sh 
+  389  rm bills*
+  390  ls
+  391  ./problema2.sh 
+  392  cd
+  393  ls
+  394  vim problema2.sh 
+  395  cd LX2_ricato/
+  396  ls
+  397  cd problema2
+  398  ls
+  399  vim problema2.sh 
+  400  ./problema2.sh 
+  401  vim problema2.sh 
+  402  sudo apt-get install gnuplot
+  403  vim problema2.sh 
+  404  ./problema2.sh 
+  405  vim problema2.sh 
+  406  df
+  407  bg
+  408  vim problema2.sh 
+  409  fg
+  410  ./problema2.sh 
+  411  ls
+  412  cat error2.log 
+  413  cat error1.log 
+  414  vim problema2.sh 
+  415  ls
+  416  cd Datos/
+  417  ls
+  418  ls -n
+  419  cd ..
+  420  ./problema2.sh 
+  421  vim problema2.sh 
+  422  ./problema2.sh 
+  423  ls
+  424  cat error1.log 
+  425  vim problema2.sh 
+  426  ./problema2.sh 
+  427  vim problema2.sh 
+  428  ./problema2.sh 
+  429  vim problema2.sh 
+  430  cat error1.log 
+  431  cd Datos/
+  432  ls -v
+  433  ls -V
+  434  ls -n
+  435  ls -lv
+  436  cd ..
+  437  vim problema2.sh 
+  438  ./problema2.sh 
+  439  cat error1.log 
+  440  vim problema2.sh 
+  441  cd Datos/
+  442  ls
+  443  find -name '*.xls'
+  444  find -name '*.xls'|ls -lv
+  445  find -name '*.xls'
+  446  ls -lv | find -name '*.xls'
+  447  ls -lv bills0*
+  448  ls -lv bills0* | find -name '*.xls'
+  449  find -name '*.xls'|sort
+  450  cd ..
+  451  vim problema2.sh 
+  452  ./problema2.sh 
+  453  vim problema2.sh 
+  454  ./problema2.sh 
+  455  vim problema2.sh 
+  456  ./problema2.sh 
+  457  vim problema2.sh 
+  458  ./problema2.sh 
+  459  vim problema2.sh 
+  460  ./problema2.sh 
+  461  vim problema2.sh 
+  462  ./problema2.sh 
+  463  vim problema2.sh 
+  464  fg
+  465  cat error2.log 
+  466  ls
+  467  cat errorIf2.log
+  468  cat error3.log 
+  469  cat error2
+  470  cat error2.log 
+  471  vim problema2.sh 
+  472  ./problema2.sh 
+  473  vim problema2.sh 
+  474  git status
+  475  git add problema2.sh fig1.png Datos/
+  476  cd
+  477  cd LX2_ricato/
+  478  history > history/history-$HOSTNAME
