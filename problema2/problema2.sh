@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DATA=/home/ricardo/LX2_ricato/problema2/Datos
+#DATA=/home/ricardo/LX2_ricato/problema2/Datos
+DATA=/home/ricato/LX2_ricardocarvajalt/problema2/Datos
 OUT_DATA=$DATA/archivos_csv
 GRAF_DATA=$DATA/datos_graf
 FULL_DATA=$DATA/full_datos
