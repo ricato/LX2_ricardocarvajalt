@@ -41,23 +41,23 @@ then
         echo "Archivo full.dat borrado"
 fi 2> errorIf.log
 
-#a=1
-#for k in `find $GRAF_DATA -name "*.dat" | sort `
-#do
-#	if [$a < 3]
-#	then
-#        	sed '3!d' $k >> $FULL_DATA/full.dat
-#        	echo "Procesando archivo $k"
-#		let a=a+1
-#	fi 2> errorIf2.log
-#done 2> error3.log
-
-
+a=0
 for k in `find $GRAF_DATA -name "*.dat" | sort `
 do
-        sed '3!d' $k >> $FULL_DATA/full.dat
-        echo "Procesando archivo $k"
+	if (("$a" < 3))
+	then
+        	sed '3!d' $k >> $FULL_DATA/full.dat
+        	echo "Procesando archivo $k"
+		let a=a+1
+	fi 2> errorIf2.log
 done 2> error3.log
+
+
+#for k in `find $GRAF_DATA -name "*.dat" | sort `
+#do
+#        sed '3!d' $k >> $FULL_DATA/full.dat
+#        echo "Procesando archivo $k"
+#done 2> error3.log
 
 
 
