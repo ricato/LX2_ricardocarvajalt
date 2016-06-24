@@ -1,63 +1,63 @@
-    1  ls
-    2  cd LX2_ricardocarvajalt
-    3  ls
-    4  cd problema1/
-    5  ls
-    6  cd plot
+    1  exit
+    2  ls
+    3  cd LX2_ricardocarvajalt
+    4  ls
+    5  cd problema1/
+    6  cd plot/
     7  ls
-    8  rm }
-    9  rm*
-   10  rm *
+    8  vim plot1.sh 
+    9  ls
+   10  cd LX2_ricardocarvajalt
    11  ls
-   12  vim plot1.sh
+   12  cd problema1/
    13  ls
-   14  tree
-   15  cd 
-   16  ls
-   17  cd LX2_ricardocarvajalt
-   18  ls
-   19  cd problema1/
-   20  tree
-   21  cp hojasDatos/datos_graf/graf-0.dat plot
+   14  cd plot
+   15  ls
+   16  rm }
+   17  rm*
+   18  rm *
+   19  ls
+   20  vim plot1.sh
+   21  ls
    22  tree
-   23  cd plot
-   24  chmod 777 plot1.sh 
-   25  ls
-   26  ./plot1.sh 
-   27  vim plot1.sh 
-   28  ./plot1.sh 
-   29  bash
-   30  ./plot1.sh 
-   31  bash version
-   32  cd ..
+   23  cd 
+   24  ls
+   25  cd LX2_ricardocarvajalt
+   26  ls
+   27  cd problema1/
+   28  tree
+   29  cp hojasDatos/datos_graf/graf-0.dat plot
+   30  tree
+   31  cd plot
+   32  chmod 777 plot1.sh 
    33  ls
-   34  vim problema1.sh 
-   35  ./problema1.sh 
-   36  cd ..
-   37  ls
-   38  cd problema1/
-   39  ls
-   40  cd plot
+   34  ./plot1.sh 
+   35  vim plot1.sh 
+   36  ./plot1.sh 
+   37  bash
+   38  ./plot1.sh 
+   39  bash version
+   40  cd ..
    41  ls
-   42  ./plot1.sh 
-   43  ./plot1.sh
-   44  vim plot1.sh 
-   45  ./plot1.sh 
-   46  vim plot1.sh 
-   47  fg
-   48  ./plot1.sh 
-   49  vim plot1.sh 
+   42  vim problema1.sh 
+   43  ./problema1.sh 
+   44  cd ..
+   45  ls
+   46  cd problema1/
+   47  ls
+   48  cd plot
+   49  ls
    50  ./plot1.sh 
-   51  vim plot1.sh 
-   52  fg
+   51  ./plot1.sh
+   52  vim plot1.sh 
    53  ./plot1.sh 
    54  vim plot1.sh 
-   55  ./plot1.sh 
-   56  vim plot1.sh 
-   57  ./plot1.sh 
-   58  vim plot1.sh 
-   59  ./plot1.sh 
-   60  vim plot1.sh 
+   55  fg
+   56  ./plot1.sh 
+   57  vim plot1.sh 
+   58  ./plot1.sh 
+   59  vim plot1.sh 
+   60  fg
    61  ./plot1.sh 
    62  vim plot1.sh 
    63  ./plot1.sh 
@@ -65,131 +65,131 @@
    65  ./plot1.sh 
    66  vim plot1.sh 
    67  ./plot1.sh 
-   68  EOF?
-   69  EOF
+   68  vim plot1.sh 
+   69  ./plot1.sh 
    70  vim plot1.sh 
    71  ./plot1.sh 
-   72  ls
-   73  vim plot1.sh 
-   74  cd
-   75  ls
-   76  cd LX2_ricardocarvajalt
-   77  ls
-   78  cd problema1/
-   79  ls
-   80  tree
-   81  cd plot/
-   82  ls
-   83  vim plot1.sh 
-   84  ./plot1.sh 
-   85  more graf-0.dat
-   86  cat graf-0.dat
+   72  vim plot1.sh 
+   73  ./plot1.sh 
+   74  vim plot1.sh 
+   75  ./plot1.sh 
+   76  EOF?
+   77  EOF
+   78  vim plot1.sh 
+   79  ./plot1.sh 
+   80  ls
+   81  vim plot1.sh 
+   82  cd
+   83  ls
+   84  cd LX2_ricardocarvajalt
+   85  ls
+   86  cd problema1/
    87  ls
-   88  vim graf-0.dat 
-   89  ./plot1.sh 
-   90  cat graf-0.dat
+   88  tree
+   89  cd plot/
+   90  ls
    91  vim plot1.sh 
    92  ./plot1.sh 
-   93  vim plot1.sh 
-   94  ./plot1.sh 
-   95  vim plot1.sh 
-   96  ./plot1.sh 
-   97  vim plot1.sh 
-   98  ./plot1.sh 
+   93  more graf-0.dat
+   94  cat graf-0.dat
+   95  ls
+   96  vim graf-0.dat 
+   97  ./plot1.sh 
+   98  cat graf-0.dat
    99  vim plot1.sh 
   100  ./plot1.sh 
   101  vim plot1.sh 
   102  ./plot1.sh 
-  103  ls
-  104  pwd
-  105  ls
-  106  rm graf-0.dat 
-  107  cp hojasDatos/datos_graf/graf-0.dat plot
-  108  cd ..
-  109  cp hojasDatos/datos_graf/graf-0.dat plot
-  110  cd plot
+  103  vim plot1.sh 
+  104  ./plot1.sh 
+  105  vim plot1.sh 
+  106  ./plot1.sh 
+  107  vim plot1.sh 
+  108  ./plot1.sh 
+  109  vim plot1.sh 
+  110  ./plot1.sh 
   111  ls
-  112  rm fig1.png 
-  113  ./plot1.sh 
-  114  vim plot1.sh 
-  115  ./plot1.sh 
-  116  vim plot1.sh 
-  117  ./plot1.sh 
-  118  vim plot1.sh 
-  119  ./plot1.sh 
-  120  vim plot1.sh 
+  112  pwd
+  113  ls
+  114  rm graf-0.dat 
+  115  cp hojasDatos/datos_graf/graf-0.dat plot
+  116  cd ..
+  117  cp hojasDatos/datos_graf/graf-0.dat plot
+  118  cd plot
+  119  ls
+  120  rm fig1.png 
   121  ./plot1.sh 
   122  vim plot1.sh 
   123  ./plot1.sh 
   124  vim plot1.sh 
   125  ./plot1.sh 
   126  vim plot1.sh 
-  127  ls
-  128  more graf-0.dat 
-  129  vim plot1.sh 
-  130  ./plot1.sh 
-  131  vim plot1.sh
-  132  ./plot1.sh 
-  133  ls
-  134  cat error.log 
-  135  vim plot1.sh
-  136  ./plot1.sh 
-  137  cat error.log 
-  138  vim plot1.sh
-  139  fg
-  140  vim plot1.sh
-  141  ./plot1.sh 
-  142  vim plot1.sh
-  143  ./plot1.sh 
-  144  vim plot1.sh
-  145  ./plot1.sh 
+  127  ./plot1.sh 
+  128  vim plot1.sh 
+  129  ./plot1.sh 
+  130  vim plot1.sh 
+  131  ./plot1.sh 
+  132  vim plot1.sh 
+  133  ./plot1.sh 
+  134  vim plot1.sh 
+  135  ls
+  136  more graf-0.dat 
+  137  vim plot1.sh 
+  138  ./plot1.sh 
+  139  vim plot1.sh
+  140  ./plot1.sh 
+  141  ls
+  142  cat error.log 
+  143  vim plot1.sh
+  144  ./plot1.sh 
+  145  cat error.log 
   146  vim plot1.sh
-  147  ./plot1.sh 
+  147  fg
   148  vim plot1.sh
   149  ./plot1.sh 
-  150  cat 
-  151  cat error.log 
+  150  vim plot1.sh
+  151  ./plot1.sh 
   152  vim plot1.sh
   153  ./plot1.sh 
-  154  cat error.log 
-  155  cd ..
-  156  git status
-  157  cd ..
-  158  git status
-  159  ls
-  160  cd history/
-  161  ls -lrt
-  162  history > history/VM$hostname
-  163  history > history-VM$hostname
-  164  ls -lrt
-  165  rm history-VM
-  166  history > history-VM$HOSTNAME
-  167  ls -lrt
-  168  git status
-  169  cd ..
-  170  git status
-  171  git add history/history-VMubuntu
-  172  git add problema1/plot/fig1.png
-  173  git add problema1/plot/error.log
-  174  git add problema1/plot/plot1.sh
-  175  git status
-  176  git commit -m "AVANCE PROBLEMA1 20160612"
-  177  git push origin master
-  178  git log
-  179  cd problema1/
-  180  cd plot
-  181  vim plot1.sh 
-  182  ./plot1.sh 
-  183  cat error.log 
-  184  ls
-  185  vim plot1.sh 
-  186  ./plot1.sh 
-  187  cat error.log 
-  188  vim plot1.sh 
-  189  ./plot1.sh 
-  190  cat error.log 
-  191  vim plot1.sh 
-  192  ./plot1.sh 
+  154  vim plot1.sh
+  155  ./plot1.sh 
+  156  vim plot1.sh
+  157  ./plot1.sh 
+  158  cat 
+  159  cat error.log 
+  160  vim plot1.sh
+  161  ./plot1.sh 
+  162  cat error.log 
+  163  cd ..
+  164  git status
+  165  cd ..
+  166  git status
+  167  ls
+  168  cd history/
+  169  ls -lrt
+  170  history > history/VM$hostname
+  171  history > history-VM$hostname
+  172  ls -lrt
+  173  rm history-VM
+  174  history > history-VM$HOSTNAME
+  175  ls -lrt
+  176  git status
+  177  cd ..
+  178  git status
+  179  git add history/history-VMubuntu
+  180  git add problema1/plot/fig1.png
+  181  git add problema1/plot/error.log
+  182  git add problema1/plot/plot1.sh
+  183  git status
+  184  git commit -m "AVANCE PROBLEMA1 20160612"
+  185  git push origin master
+  186  git log
+  187  cd problema1/
+  188  cd plot
+  189  vim plot1.sh 
+  190  ./plot1.sh 
+  191  cat error.log 
+  192  ls
   193  vim plot1.sh 
   194  ./plot1.sh 
   195  cat error.log 
@@ -198,127 +198,339 @@
   198  cat error.log 
   199  vim plot1.sh 
   200  ./plot1.sh 
-  201  cat error.log 
-  202  vim plot1.sh 
-  203  ./plot1.sh 
+  201  vim plot1.sh 
+  202  ./plot1.sh 
+  203  cat error.log 
   204  vim plot1.sh 
   205  ./plot1.sh 
   206  cat error.log 
   207  vim plot1.sh 
   208  ./plot1.sh 
-  209  vim plot1.sh 
-  210  cat error.log 
-  211  vim plot1.sh 
-  212  ./plot1.sh 
-  213  cat error.log 
-  214  vim plot1.sh 
-  215  ./plot1.sh 
-  216  cat error.log 
+  209  cat error.log 
+  210  vim plot1.sh 
+  211  ./plot1.sh 
+  212  vim plot1.sh 
+  213  ./plot1.sh 
+  214  cat error.log 
+  215  vim plot1.sh 
+  216  ./plot1.sh 
   217  vim plot1.sh 
-  218  ./plot1.sh 
-  219  cat error.log 
-  220  vim plot1.sh 
-  221  ./plot1.sh 
-  222  cat error.log 
-  223  vim plot1.sh 
-  224  ./plot1.sh 
-  225  cat error.log 
-  226  vim plot1.sh 
-  227  ./plot1.sh 
-  228  cat error.log 
-  229  vim plot1.sh 
-  230  ./plot1.sh 
-  231  cat error.log 
-  232  vim plot1.sh 
-  233  ./plot1.sh 
-  234  cat error.log 
-  235  vim plot1.sh 
-  236  ./plot1.sh 
-  237  cat error.log 
-  238  vim plot1.sh 
-  239  ./plot1.sh 
+  218  cat error.log 
+  219  vim plot1.sh 
+  220  ./plot1.sh 
+  221  cat error.log 
+  222  vim plot1.sh 
+  223  ./plot1.sh 
+  224  cat error.log 
+  225  vim plot1.sh 
+  226  ./plot1.sh 
+  227  cat error.log 
+  228  vim plot1.sh 
+  229  ./plot1.sh 
+  230  cat error.log 
+  231  vim plot1.sh 
+  232  ./plot1.sh 
+  233  cat error.log 
+  234  vim plot1.sh 
+  235  ./plot1.sh 
+  236  cat error.log 
+  237  vim plot1.sh 
+  238  ./plot1.sh 
+  239  cat error.log 
   240  vim plot1.sh 
-  241  cat error.log 
-  242  vim plot1.sh 
-  243  ./plot1.sh 
-  244  cat error.log 
-  245  vim plot1.sh 
-  246  ./plot1.sh 
-  247  cat error.log 
+  241  ./plot1.sh 
+  242  cat error.log 
+  243  vim plot1.sh 
+  244  ./plot1.sh 
+  245  cat error.log 
+  246  vim plot1.sh 
+  247  ./plot1.sh 
   248  vim plot1.sh 
-  249  ./plot1.sh 
-  250  cat error.log 
-  251  vim plot1.sh 
-  252  ./plot1.sh 
-  253  cat error.log 
-  254  vim plot1.sh 
-  255  ./plot1.sh 
-  256  cat error.log 
-  257  vim plot1.sh 
-  258  ./plot1.sh 
-  259  cat error.log 
-  260  vim plot1.sh 
-  261  ./plot1.sh 
-  262  cat error.log 
-  263  vim plot1.sh 
-  264  ./plot1.sh 
-  265  cat error.log 
-  266  cd ..
-  267  git status
-  268  cd history/
-  269  ls
-  270  ls /lrt
-  271  ls -lrt
-  272  history > history-VM$HOSTNAME
-  273  ls -lrt
-  274  git status
-  275  cd ..
-  276  git status
-  277  git add history/history-VMubuntu problema1/plot/fig1.png
-  278  git add problema1/plot/plot1.sh
-  279  git status
-  280  git commit -m "Problema1:script plot1 ya grafica :-)"
-  281  git push origin master
-  282  cd problema1/
-  283  vim problema1.sh 
-  284  ./problema1.sh 
-  285  ls
-  286  cat error.log
-  287  vim problema1.sh 
-  288  ./problema1.sh 
-  289  vim problema1.sh 
-  290  ./problema1.sh 
+  249  cat error.log 
+  250  vim plot1.sh 
+  251  ./plot1.sh 
+  252  cat error.log 
+  253  vim plot1.sh 
+  254  ./plot1.sh 
+  255  cat error.log 
+  256  vim plot1.sh 
+  257  ./plot1.sh 
+  258  cat error.log 
+  259  vim plot1.sh 
+  260  ./plot1.sh 
+  261  cat error.log 
+  262  vim plot1.sh 
+  263  ./plot1.sh 
+  264  cat error.log 
+  265  vim plot1.sh 
+  266  ./plot1.sh 
+  267  cat error.log 
+  268  vim plot1.sh 
+  269  ./plot1.sh 
+  270  cat error.log 
+  271  vim plot1.sh 
+  272  ./plot1.sh 
+  273  cat error.log 
+  274  cd ..
+  275  git status
+  276  cd history/
+  277  ls
+  278  ls /lrt
+  279  ls -lrt
+  280  history > history-VM$HOSTNAME
+  281  ls -lrt
+  282  git status
+  283  cd ..
+  284  git status
+  285  git add history/history-VMubuntu problema1/plot/fig1.png
+  286  git add problema1/plot/plot1.sh
+  287  git status
+  288  git commit -m "Problema1:script plot1 ya grafica :-)"
+  289  git push origin master
+  290  cd problema1/
   291  vim problema1.sh 
   292  ./problema1.sh 
-  293  git status
-  294  cd 
-  295  cd LX2_ricardocarvajalt/
-  296  history > history/history-VM$HOSTNAME
-  297  git status
-  298  git add history/history-VMubuntu problema1/problema1.sh
-  299  git add problema1/error.log problema1/error3.log problema1/errorIf.log problema1/fig1.png problema1/hojasDatos/full_datos/ 
-  300  git status
-  301  git commit -m "PROBLEMA 1 TERMINADO :)"
-  302  git push origin master
-  303  git status
-  304  ls
-  305  git branch proyecto_programado
-  306  git checkout proyecto_programado 
-  307  ls
+  293  ls
+  294  cat error.log
+  295  vim problema1.sh 
+  296  ./problema1.sh 
+  297  vim problema1.sh 
+  298  ./problema1.sh 
+  299  vim problema1.sh 
+  300  ./problema1.sh 
+  301  git status
+  302  cd 
+  303  cd LX2_ricardocarvajalt/
+  304  history > history/history-VM$HOSTNAME
+  305  git status
+  306  git add history/history-VMubuntu problema1/problema1.sh
+  307  git add problema1/error.log problema1/error3.log problema1/errorIf.log problema1/fig1.png problema1/hojasDatos/full_datos/ 
   308  git status
-  309  mkdir problema2
-  310  mkdir problema3
-  311  tree
-  312  git status
-  313  cd problema2
-  314  ls
-  315  git status
-  316  cd ..
-  317  git add problema2/ problema3/
-  318  git commit -m "---Inicio proyecto programado---"
-  319  git log
-  320  git push origin proyecto_programado
-  321  git status
-  322  git checkout master
+  309  git commit -m "PROBLEMA 1 TERMINADO :)"
+  310  git push origin master
+  311  git status
+  312  ls
+  313  git branch proyecto_programado
+  314  git checkout proyecto_programado 
+  315  ls
+  316  git status
+  317  mkdir problema2
+  318  mkdir problema3
+  319  tree
+  320  git status
+  321  cd problema2
+  322  ls
   323  git status
-  324  history > history/history-VM$HOSTNAME
+  324  cd ..
+  325  git add problema2/ problema3/
+  326  git commit -m "---Inicio proyecto programado---"
+  327  git log
+  328  git push origin proyecto_programado
+  329  git status
+  330  git checkout master
+  331  git status
+  332  history > history/history-VM$HOSTNAME
+  333  git status
+  334  git add history/history-VMubuntu
+  335  git commit -m "history"
+  336  git push origin master
+  337  cd LX2_ricardocarvajalt/
+  338  ls
+  339  cd problema1
+  340  ls
+  341  vim problema1.sh 
+  342  exit
+  343  ls
+  344  cd LX2_ricardocarvajalt/
+  345  ls
+  346  git checkout proyecto_programado
+  347  ls
+  348  cd problema2
+  349  ls
+  350  cd src
+  351  exit
+  352  ls
+  353  cd LX2_ricardocarvajalt/
+  354  git remote
+  355  git pull origin
+  356  git pull origin master
+  357  ls
+  358  git checkout proyecto_programado 
+  359  git checkout master
+  360  git checkout proyecto_programado 
+  361  git pull origin proyecto_programado 
+  362  git checkout master
+  363  ls
+  364  git checkout proyecto_programado 
+  365  ls
+  366  cd problema2
+  367  ls
+  368  vim problema2.sh 
+  369  ./problema2.sh 
+  370  ls
+  371  cd Datos
+  372  ls
+  373  cd ..
+  374  ls
+  375  vim problema2.sh 
+  376  ./problema2.sh 
+  377  vim problema2.sh 
+  378  ./problema2.sh 
+  379  vim problema2.sh 
+  380  ./problema2.sh 
+  381  vim problema2.sh 
+  382  ./problema2.sh 
+  383  cat error.log 
+  384  ls
+  385  cat errorIf.log 
+  386  vim problema2.sh 
+  387  ./problema2.sh 
+  388  ls
+  389  cat error.log 
+  390  cat errorIf.log 
+  391  vim problema2.sh 
+  392  ./problema2.sh 
+  393  cat errorIf.log 
+  394  vim problema2.sh 
+  395  ./problema2.sh 
+  396  cat errorIf.log
+  397  -a errorIf.log
+  398  vim problema2.sh 
+  399  ./problema2.sh 
+  400  cat errorIf.log
+  401  cd ..
+  402  cd problema1
+  403  ks
+  404  ls
+  405  cat errorIf.log
+  406  ./problema1.sh 
+  407  git log
+  408  git status
+  409  git add ../problema2/problema2.sh ../problema2/error.log ../problema2/fig1.png
+  410  git status
+  411  git commit -m "Avance problema 2 grafica"
+  412  git push origin proyecto_programado 
+  413  exit
+  414  ls
+  415  cd LX2_ricardocarvajalt/
+  416  ls
+  417  cd problema
+  418  cd problema1
+  419  ls
+  420  vim problema1.sh 
+  421  cd
+  422  ls
+  423  cd &home
+  424  cd home
+  425  ls
+  426  cd LX2_ricardocarvajalt/
+  427  ls
+  428  cd problema1
+  429  vim problema1.sh 
+  430  exit
+  431  ls
+  432  cd LX2_ricardocarvajalt/
+  433  ls
+  434  git checkout master
+  435  git pull origin proyecto_programado 
+  436  git checkout master
+  437  git status
+  438  git checkout proyecto_programado 
+  439  git checkout master
+  440  git status
+  441  git checkout master
+  442  git pull origin master 
+  443  ls
+  444  git checkout proyecto_programado 
+  445  git checkout master
+  446  git status
+  447  git commit -a "Corrigiendo"
+  448  git commit -a
+  449  git commit -m "Corrigiendo"
+  450  cd problema2
+  451  git checkout master
+  452  git add problema2/errorIf.log
+  453  git add errorIf.log
+  454  git commit -m "Corrigiendo"
+  455  git checkout master
+  456  ls
+  457  cd//
+  458  cd ..
+  459  ls
+  460  git pull origin master 
+  461  git checkout proyecto_programado 
+  462  git pull origin proyecto_programado 
+  463  cd problema2/
+  464  ls
+  465  vim problema2.sh 
+  466  git checkout master
+  467  git checkout proyecto_programado 
+  468  ./problema2.sh 
+  469  vim problema2.sh 
+  470  ./problema2.sh 
+  471  git status
+  472  git add  ../problema1/hojasDatos/full_datos/full.dat errorIf.log problema2.sh
+  473  git rm bills01_2012.xls bills02_2012.xls bills03_2012.xls bills04_2012.xls bills05_2012.xls bills06_2012.xls
+  474  git commit -m "Corrigiendo cosas"
+  475  git push origin proyecto_programado 
+  476  git checkout master
+  477  ls
+  478  cd ..
+  479  ls
+  480  rm problema3
+  481  rm -r problema3
+  482  ls
+  483  git status
+  484  git rm problema3/Datos
+  485  git status
+  486  git commit -m "Corrigiendo..."
+  487  git push origin master
+  488  ls
+  489  git checkout proyecto_programado 
+  490  ls
+  491  cd problema3/
+  492  ls
+  493  cd ..
+  494  ls
+  495  git checkout master
+  496  ls
+  497  rm -r problema2
+  498  git status
+  499  git rm problema2/
+  500  git rm -r problema2/
+  501  git status
+  502  git commit -m "Corrigiendo..."
+  503  git push origin master
+  504  git checkout proyecto_programado 
+  505  ls
+  506  cd problema2
+  507  ls
+  508  vim problema2.sh 
+  509  ./problema2.sh 
+  510  ls -lrt
+  511  cat error.log 
+  512  cat errorIf2.log
+  513  vim problema2.sh 
+  514  fg
+  515  ./problema2.sh 
+  516  cat errorIf2.log
+  517  cat error.log 
+  518  vim problema2.sh 
+  519  a=1
+  520  echo $a
+  521  vim problema2.sh 
+  522  ./problema2.sh 
+  523  ls -lrt
+  524  cat error.log 
+  525  cat errorIf2.log 
+  526  vim problema2.sh 
+  527  ./problema2.sh 
+  528  git status
+  529  vim problema2.sh 
+  530  git add Datos/full_datos/full.dat fig1.png problema2.sh errorIf2.log
+  531  git commit -m "Avance..."
+  532  git push origin proyecto_programado 
+  533  git checkout master
+  534  cd ..
+  535  tree
+  536  history > history/history-VM$HOSTNAME
