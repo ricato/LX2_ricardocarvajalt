@@ -476,3 +476,159 @@
   476  cd
   477  cd LX2_ricato/
   478  history > history/history-$HOSTNAME
+  479  git status
+  480  git add history/history-ricato
+  481  git commit -m "Avance problema2"
+  482  git push origin proyecto_programado 
+  483  git remote
+  484  git push origin proyecto_programado 
+  485  cd problema2
+  486  git push origin proyecto_programado 
+  487  git push origin
+  488  git log
+  489  git checkout master
+  490  git status
+  491  ls
+  492  cd
+  493  cd /LX2_ricato
+  494  cd LX2_ricato/
+  495  ls
+  496  git checkout master
+  497  cd LX2_ricato/
+  498  git checkout proyecto_programado 
+  499  git status
+  500  ls
+  501  git checkout master
+  502  ls
+  503  cd problema2/
+  504  ls
+  505  exit
+  506  ls
+  507  cd LX2_ricato/
+  508  git pull origin master
+  509  git pull origin proyecto_programado 
+  510  ls
+  511  git checkout master
+  512  git pull origin master
+  513  ls
+  514  cd problema
+  515  cd problema2
+  516  ls
+  517  rm errorIf.log 
+  518  cd ..
+  519  git pull origin master
+  520  ls
+  521  git pull origin master
+  522  ls
+  523  git checkout proyecto_programado
+  524  git pull origin proyecto_programado 
+  525  ls
+  526  cd problema2/
+  527  ls
+  528  rm errorIf2.log 
+  529  git pull origin proyecto_programado 
+  530  ls
+  531  cd..
+  532  ls
+  533  cd ..
+  534  ls
+  535  git pull origin proyecto_programado 
+  536  git pull origin master
+  537  ls+
+  538  ls
+  539  git pull origin proyecto_programado 
+  540  cd ..
+  541  git remote
+  542  ls
+  543  cd LX2_profe
+  544  ls
+  545  git remote
+  546  cd ..
+  547* 
+  548  git clone https://github.com/ricato/LX2_ricardocarvajalt.git LX2_ricato
+  549  git clone https://github.com/ricato/LX2_ricardocarvajalt.git 
+  550  ls
+  551  cd LX2_ricardocarvajalt/
+  552  ls
+  553  git branch -r
+  554  git checkout proyecto_programado 
+  555  ls
+  556  git branch -r
+  557  git checkout master
+  558  ls
+  559  git checkout proyecto_programado 
+  560  ls
+  561  cd problema2/
+  562  ls
+  563  vim problema2.sh 
+  564  ./problema2.sh 
+  565  vim problema2.sh 
+  566  ./problema2.sh 
+  567  vim problema2.sh 
+  568  ./problema2.sh 
+  569  vim problema2.sh 
+  570  ./problema2.sh 
+  571  vim problema2.sh 
+  572  ./problema2.sh 
+  573  vim problema2.sh 
+  574  ./problema2.sh 
+  575  vim problema2.sh 
+  576  ./problema2.sh 
+  577  vim problema2.sh 
+  578  ./problema2.sh 
+  579  vim problema2.sh 
+  580  ./problema2.sh 
+  581  vim problema2.sh 
+  582  ls
+  583  cat error
+  584  cat error.log 
+  585  vim problema2.sh 
+  586  ./problema2.sh 
+  587  cat error.log 
+  588  vim problema2.sh 
+  589  ./problema2.sh 
+  590  cat error.log 
+  591  vim problema2.sh 
+  592  ./problema2.sh 
+  593  cat error.log 
+  594  vim problema2.sh 
+  595  ./problema2.sh 
+  596  cat error.log 
+  597  vim problema2.sh 
+  598  ./problema2.sh 
+  599  cat error.log 
+  600  vim problema2.sh 
+  601  ./problema2.sh 
+  602  cat error.log 
+  603  vim problema2.sh 
+  604  ./problema2.sh 
+  605  vim problema2.sh 
+  606  ./problema2.sh 
+  607  vim problema2.sh 
+  608  ./problema2.sh 
+  609  vim problema2.sh 
+  610  ./problema2.sh 
+  611  vim problema2.sh 
+  612  ./problema2.sh 
+  613  vim problema2.sh 
+  614  ./problema2.sh 
+  615  vim problema2.sh 
+  616  ./problema2.sh 
+  617  vim problema2.sh 
+  618  ./problema2.sh 
+  619  git status
+  620  git add fig1.png problema2.sh Datos/full_datos/full2.dat error4.log errorIf3.log
+  621  git status
+  622  git commit -m "Problema 2 Finalizado :)"
+  623  git push origin proyecto_programado 
+  624  git checkout master
+  625  ls
+  626  cd
+  627  ls
+  628  cd LX2_ricardocarvajalt
+  629  ls
+  630  cd problema1/
+  631  ls
+  632  cd ..
+  633  ls
+  634  history > history/history-$HOSTNAME
