@@ -632,3 +632,42 @@
   632  cd ..
   633  ls
   634  history > history/history-$HOSTNAME
+  635  git status
+  636  git add history/history-ricato
+  637  ls
+  638  git status
+  639  git commit -m "History Problema2 Finalizado"
+  640  git push origin master
+  641  git status
+  642  git checkout proyecto_programado 
+  643  ls
+  644  cd problema3
+  645  ls
+  646  vim problema3.sh
+  647  chmod 777 problema3.sh 
+  648  ls
+  649  ./problema3.sh 
+  650  vim problema3.sh}
+  651  vim problema3.sh
+  652  cat Datos
+  653  vim problema3.sh
+  654  head /home/ricardo/LX2_ricardocarvajalt/problema3/Datos
+  655  vim problema3.sh
+  656  ./problema3.sh 
+  657  vim problema3.sh
+  658  ./problema3.sh 
+  659  ls
+  660  vim problema3.sh
+  661  ./problema3.sh 
+  662  vim problema3.sh
+  663  ./problema3.sh 
+  664  vim problema3.sh
+  665  ./problema3.sh 
+  666  git status
+  667  git add Datos2 datos.utf-8.out datos_graf/ problema3.sh
+  668  git commit -m "Inicio problema3"
+  669  git push origin proyecto_programado 
+  670  git checkout master
+  671  cd ..
+  672  ls
+  673  history> history/history-$HOSTNAME
