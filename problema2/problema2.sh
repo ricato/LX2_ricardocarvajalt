@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#PROYECTO_PROGRAMADO_PROBLEMA2
+
 DATA=/home/ricardo/LX2_ricardocarvajalt/problema2/Datos
 #DATA=/home/ricato/LX2_ricardocarvajalt/problema2/Datos
 OUT_DATA=$DATA/archivos_csv
