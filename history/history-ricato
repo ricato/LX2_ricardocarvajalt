@@ -504,170 +504,366 @@
   504  ls
   505  exit
   506  ls
-  507  cd LX2_ricato/
-  508  git pull origin master
-  509  git pull origin proyecto_programado 
+  507  cd LX2_ricardocarvajalt
+  508  ls
+  509  cd problema1
   510  ls
-  511  git checkout master
-  512  git pull origin master
-  513  ls
-  514  cd problema
-  515  cd problema2
+  511  vim problema1.sh 
+  512  ls
+  513  cd LX2_ricato/
+  514  git pull origin master
+  515  git pull origin proyecto_programado 
   516  ls
-  517  rm errorIf.log 
-  518  cd ..
-  519  git pull origin master
-  520  ls
-  521  git pull origin master
+  517  git checkout master
+  518  git pull origin master
+  519  ls
+  520  cd problema
+  521  cd problema2
   522  ls
-  523  git checkout proyecto_programado
-  524  git pull origin proyecto_programado 
-  525  ls
-  526  cd problema2/
-  527  ls
-  528  rm errorIf2.log 
-  529  git pull origin proyecto_programado 
-  530  ls
-  531  cd..
-  532  ls
-  533  cd ..
-  534  ls
+  523  rm errorIf.log 
+  524  cd ..
+  525  git pull origin master
+  526  ls
+  527  git pull origin master
+  528  ls
+  529  git checkout proyecto_programado
+  530  git pull origin proyecto_programado 
+  531  ls
+  532  cd problema2/
+  533  ls
+  534  rm errorIf2.log 
   535  git pull origin proyecto_programado 
-  536  git pull origin master
-  537  ls+
+  536  ls
+  537  cd..
   538  ls
-  539  git pull origin proyecto_programado 
-  540  cd ..
-  541  git remote
-  542  ls
-  543  cd LX2_profe
+  539  cd ..
+  540  ls
+  541  git pull origin proyecto_programado 
+  542  git pull origin master
+  543  ls+
   544  ls
-  545  git remote
+  545  git pull origin proyecto_programado 
   546  cd ..
-  547* 
-  548  git clone https://github.com/ricato/LX2_ricardocarvajalt.git LX2_ricato
-  549  git clone https://github.com/ricato/LX2_ricardocarvajalt.git 
+  547  git remote
+  548  ls
+  549  cd LX2_profe
   550  ls
-  551  cd LX2_ricardocarvajalt/
-  552  ls
-  553  git branch -r
-  554  git checkout proyecto_programado 
+  551  git remote
+  552  cd ..
+  553  git clone https://github.com/ricato/LX2_ricardocarvajalt.git LX2_ricato
+  554  git clone https://github.com/ricato/LX2_ricardocarvajalt.git 
   555  ls
-  556  git branch -r
-  557  git checkout master
-  558  ls
+  556  cd LX2_ricardocarvajalt/
+  557  ls
+  558  git branch -r
   559  git checkout proyecto_programado 
   560  ls
-  561  cd problema2/
-  562  ls
-  563  vim problema2.sh 
-  564  ./problema2.sh 
-  565  vim problema2.sh 
-  566  ./problema2.sh 
-  567  vim problema2.sh 
-  568  ./problema2.sh 
-  569  vim problema2.sh 
-  570  ./problema2.sh 
-  571  vim problema2.sh 
-  572  ./problema2.sh 
-  573  vim problema2.sh 
-  574  ./problema2.sh 
-  575  vim problema2.sh 
-  576  ./problema2.sh 
-  577  vim problema2.sh 
-  578  ./problema2.sh 
-  579  vim problema2.sh 
-  580  ./problema2.sh 
-  581  vim problema2.sh 
-  582  ls
-  583  cat error
-  584  cat error.log 
-  585  vim problema2.sh 
-  586  ./problema2.sh 
-  587  cat error.log 
-  588  vim problema2.sh 
-  589  ./problema2.sh 
-  590  cat error.log 
-  591  vim problema2.sh 
-  592  ./problema2.sh 
-  593  cat error.log 
-  594  vim problema2.sh 
-  595  ./problema2.sh 
-  596  cat error.log 
-  597  vim problema2.sh 
-  598  ./problema2.sh 
-  599  cat error.log 
-  600  vim problema2.sh 
-  601  ./problema2.sh 
-  602  cat error.log 
-  603  vim problema2.sh 
-  604  ./problema2.sh 
+  561  git branch -r
+  562  git checkout master
+  563  ls
+  564  git checkout proyecto_programado 
+  565  ls
+  566  cd problema2/
+  567  ls
+  568  vim problema2.sh 
+  569  ./problema2.sh 
+  570  vim problema2.sh 
+  571  ./problema2.sh 
+  572  vim problema2.sh 
+  573  ./problema2.sh 
+  574  vim problema2.sh 
+  575  ./problema2.sh 
+  576  vim problema2.sh 
+  577  ./problema2.sh 
+  578  vim problema2.sh 
+  579  ./problema2.sh 
+  580  vim problema2.sh 
+  581  ./problema2.sh 
+  582  vim problema2.sh 
+  583  ./problema2.sh 
+  584  vim problema2.sh 
+  585  ./problema2.sh 
+  586  vim problema2.sh 
+  587  ls
+  588  cat error
+  589  cat error.log 
+  590  vim problema2.sh 
+  591  ./problema2.sh 
+  592  cat error.log 
+  593  vim problema2.sh 
+  594  ./problema2.sh 
+  595  cat error.log 
+  596  vim problema2.sh 
+  597  ./problema2.sh 
+  598  cat error.log 
+  599  vim problema2.sh 
+  600  ./problema2.sh 
+  601  cat error.log 
+  602  vim problema2.sh 
+  603  ./problema2.sh 
+  604  cat error.log 
   605  vim problema2.sh 
   606  ./problema2.sh 
-  607  vim problema2.sh 
-  608  ./problema2.sh 
-  609  vim problema2.sh 
-  610  ./problema2.sh 
-  611  vim problema2.sh 
-  612  ./problema2.sh 
-  613  vim problema2.sh 
-  614  ./problema2.sh 
-  615  vim problema2.sh 
-  616  ./problema2.sh 
-  617  vim problema2.sh 
-  618  ./problema2.sh 
-  619  git status
-  620  git add fig1.png problema2.sh Datos/full_datos/full2.dat error4.log errorIf3.log
-  621  git status
-  622  git commit -m "Problema 2 Finalizado :)"
-  623  git push origin proyecto_programado 
-  624  git checkout master
-  625  ls
-  626  cd
-  627  ls
-  628  cd LX2_ricardocarvajalt
-  629  ls
-  630  cd problema1/
-  631  ls
-  632  cd ..
-  633  ls
-  634  history > history/history-$HOSTNAME
-  635  git status
-  636  git add history/history-ricato
-  637  ls
-  638  git status
-  639  git commit -m "History Problema2 Finalizado"
-  640  git push origin master
-  641  git status
-  642  git checkout proyecto_programado 
-  643  ls
-  644  cd problema3
-  645  ls
-  646  vim problema3.sh
-  647  chmod 777 problema3.sh 
+  607  cat error.log 
+  608  vim problema2.sh 
+  609  ./problema2.sh 
+  610  vim problema2.sh 
+  611  ./problema2.sh 
+  612  vim problema2.sh 
+  613  ./problema2.sh 
+  614  vim problema2.sh 
+  615  ./problema2.sh 
+  616  vim problema2.sh 
+  617  ./problema2.sh 
+  618  vim problema2.sh 
+  619  ./problema2.sh 
+  620  vim problema2.sh 
+  621  ./problema2.sh 
+  622  vim problema2.sh 
+  623  ./problema2.sh 
+  624  git status
+  625  git add fig1.png problema2.sh Datos/full_datos/full2.dat error4.log errorIf3.log
+  626  git status
+  627  git commit -m "Problema 2 Finalizado :)"
+  628  git push origin proyecto_programado 
+  629  git checkout master
+  630  ls
+  631  cd
+  632  ls
+  633  cd LX2_ricardocarvajalt
+  634  ls
+  635  cd problema1/
+  636  ls
+  637  cd ..
+  638  ls
+  639  history > history/history-$HOSTNAME
+  640  git status
+  641  git add history/history-ricato
+  642  ls
+  643  git status
+  644  git commit -m "History Problema2 Finalizado"
+  645  git push origin master
+  646  git status
+  647  git checkout proyecto_programado 
   648  ls
-  649  ./problema3.sh 
-  650  vim problema3.sh}
+  649  cd problema3
+  650  ls
   651  vim problema3.sh
-  652  cat Datos
-  653  vim problema3.sh
-  654  head /home/ricardo/LX2_ricardocarvajalt/problema3/Datos
-  655  vim problema3.sh
-  656  ./problema3.sh 
-  657  vim problema3.sh
-  658  ./problema3.sh 
-  659  ls
+  652  chmod 777 problema3.sh 
+  653  ls
+  654  ./problema3.sh 
+  655  vim problema3.sh}
+  656  vim problema3.sh
+  657  cat Datos
+  658  vim problema3.sh
+  659  head /home/ricardo/LX2_ricardocarvajalt/problema3/Datos
   660  vim problema3.sh
   661  ./problema3.sh 
   662  vim problema3.sh
   663  ./problema3.sh 
-  664  vim problema3.sh
-  665  ./problema3.sh 
-  666  git status
-  667  git add Datos2 datos.utf-8.out datos_graf/ problema3.sh
-  668  git commit -m "Inicio problema3"
-  669  git push origin proyecto_programado 
-  670  git checkout master
-  671  cd ..
-  672  ls
-  673  history> history/history-$HOSTNAME
+  664  ls
+  665  vim problema3.sh
+  666  ./problema3.sh 
+  667  vim problema3.sh
+  668  ./problema3.sh 
+  669  vim problema3.sh
+  670  ./problema3.sh 
+  671  git status
+  672  git add Datos2 datos.utf-8.out datos_graf/ problema3.sh
+  673  git commit -m "Inicio problema3"
+  674  git push origin proyecto_programado 
+  675  git checkout master
+  676  cd ..
+  677  ls
+  678  history> history/history-$HOSTNAME
+  679  git status
+  680  git add history/history-ricato
+  681  git commit -m "History..."
+  682  git push origin master
+  683  ls
+  684  exit
+  685  ls
+  686  LX2_ricardocarvajalt
+  687  cd LX2_ricardocarvajalt
+  688  ls
+  689  cdp1
+  690  cd problema1
+  691  vim problema1.sh 
+  692  cat problema1.sh 
+  693  mkdir $$
+  694  tar -xf Popcorn-Time-linux64.tar.gz -C $$
+  695  cd $$
+  696  ls
+  697  sudo ./install
+  698  sudo ./Popcorn-Time 
+  699  cd
+  700  Downloads/
+  701  ls
+  702  cd Downloads/
+  703  ls
+  704  tar -xf Popcorn-Time-linux64.tar.gz
+  705  ls
+  706  ./Popcorn-Time 
+  707  sudo add-apt-repository ppa:webupd8team/popcorntime
+  708  sudo apt-get update
+  709  sudo apt-get install popcorn-time
+  710  ls
+  711  cd LX2_ricardocarvajalt
+  712  ls
+  713  cd problema1/
+  714  vim problema1.sh 
+  715  git checkout proyecto_programado 
+  716  ls
+  717  vim problema1.sh 
+  718  cd ..
+  719  sudo apt-get install popcorntime
+  720  sudo apt-get install popcorn-time
+  721  exit
+  722  ls
+  723  cd LX2_ricardocarvajalt
+  724  git checkout proyecto_programado 
+  725  ls
+  726  cd problema2
+  727  ls
+  728  vim problema2.sh 
+  729  cd ..
+  730  ls
+  731  cd LX2_ricardocarvajalt
+  732  git checkout master
+  733  ls
+  734  tree
+  735  su -
+  736  vish
+  737  virsh
+  738  sudo su -
+  739  ls
+  740  git checkout master
+  741  git checkout proyecto_programado 
+  742  cd problema3
+  743  ls
+  744  vim problema3.sh 
+  745  cat Datos2
+  746  tail -n +4 Datos
+  747  clear
+  748  vim Datos
+  749  vim problema3.sh 
+  750  ./problema3.sh 
+  751  vim problema3.sh 
+  752  ./problema3.sh 
+  753  ls
+  754  cat Datos2
+  755  clear
+  756  vim Datos2
+  757  vim problema3.sh 
+  758  ./problema3.sh 
+  759  vim Datos2
+  760  vim problema3.sh 
+  761  ./problema3.sh 
+  762  vim problema3.sh 
+  763  ./problema3.sh 
+  764  ls
+  765  cat errorD.log 
+  766  vim problema3.sh 
+  767  ./problema3.sh 
+  768  vim problema3.sh 
+  769  ./problema3.sh 
+  770  vim problema3.sh 
+  771  ./problema3.sh 
+  772  vim problema3.sh 
+  773  ./problema3.sh 
+  774  vim problema3.sh 
+  775  fg
+  776  ./problema3.sh 
+  777  vim problema3.sh 
+  778  ./problema3.sh 
+  779  vim problema3.sh 
+  780  ./problema3.sh 
+  781  ls
+  782  cat E
+  783  vim problema3.sh 
+  784  ./problema3.sh 
+  785  vim problema3.sh 
+  786  ./problema3.sh 
+  787  cat ERROR.log 
+  788  vim problema3.sh 
+  789  ./problema3.sh 
+  790  vim problema3.sh 
+  791  ./problema3.sh 
+  792  ls
+  793  vim problema3.sh 
+  794  ./problema3.sh 
+  795  vim problema3.sh 
+  796  ./problema3.sh 
+  797  vim problema3.sh 
+  798  ./problema3.sh 
+  799  vim Datos
+  800  vim problema3.sh 
+  801  ./problema3.sh 
+  802  vim problema3.sh 
+  803  ./problema3.sh 
+  804  vim problema3.sh 
+  805  ./problema3.sh 
+  806  vim problema3.sh 
+  807  ./problema3.sh 
+  808  vim problema3.sh 
+  809  ./problema3.sh 
+  810  vim problema3.sh 
+  811  ./problema3.sh 
+  812  vim problema3.sh 
+  813  ./problema3.sh 
+  814  vim problema3.sh 
+  815  ./problema3.sh 
+  816  vim problema3.sh 
+  817  ./problema3.sh 
+  818  vim problema3.sh 
+  819  ./problema3.sh 
+  820  vim problema3.sh 
+  821  ./problema3.sh 
+  822  vim problema3.sh 
+  823  ./problema3.sh 
+  824  vim problema3.sh 
+  825  ./problema3.sh 
+  826  vim problema3.sh 
+  827  ./problema3.sh 
+  828  vim problema3.sh 
+  829  ./problema3.sh 
+  830  vim problema3.sh 
+  831  ./problema3.sh 
+  832  vim problema3.sh 
+  833  ./problema3.sh 
+  834  vim problema3.sh 
+  835  ./problema3.sh 
+  836  vim problema3.sh 
+  837  ./problema3.sh 
+  838  vim problema3.sh 
+  839  ./problema3.sh 
+  840  vim problema3.sh 
+  841  ./problema3.sh 
+  842  vim problema3.sh 
+  843  ./problema3.sh 
+  844  vim problema3.sh 
+  845  ./problema3.sh 
+  846  vim problema3.sh 
+  847  ./problema3.sh 
+  848  vim problema3.sh 
+  849  ./problema3.sh 
+  850  vim problema3.sh 
+  851  ./problema3.sh 
+  852  vim problema3.sh 
+  853  ./problema3.sh 
+  854  vim problema3.sh 
+  855  ./problema3.sh 
+  856  vim problema3.sh 
+  857  ./problema3.sh 
+  858  vim problema3.sh 
+  859  ./problema3.sh 
+  860  git status
+  861  git add Datos2 datos_graf/graf.dat problema3.sh error.log fig1.png
+  862  git rm datos.utf-8.out
+  863  git status
+  864  git commit -m "Problema3 Avance y gráfica lista :-)"
+  865  git push origin proyecto_programado 
+  866  cd ..
+  867  git checkout master
+  868  git status
+  869  history > history/history-$HOSTNAME
