@@ -736,79 +736,79 @@
   736  vish
   737  virsh
   738  sudo su -
-  739  ls
-  740  git checkout master
-  741  git checkout proyecto_programado 
-  742  cd problema3
+  739  sudo apt-get install notepadd++
+  740  sudo apt-get install notepad++
+  741  sudo apt-get install notepad+
+  742  sudo apt-get install notepadd+
   743  ls
-  744  vim problema3.sh 
-  745  cat Datos2
-  746  tail -n +4 Datos
-  747  clear
-  748  vim Datos
-  749  vim problema3.sh 
-  750  ./problema3.sh 
-  751  vim problema3.sh 
-  752  ./problema3.sh 
-  753  ls
-  754  cat Datos2
-  755  clear
-  756  vim Datos2
-  757  vim problema3.sh 
-  758  ./problema3.sh 
-  759  vim Datos2
-  760  vim problema3.sh 
-  761  ./problema3.sh 
-  762  vim problema3.sh 
-  763  ./problema3.sh 
-  764  ls
-  765  cat errorD.log 
-  766  vim problema3.sh 
-  767  ./problema3.sh 
-  768  vim problema3.sh 
-  769  ./problema3.sh 
-  770  vim problema3.sh 
-  771  ./problema3.sh 
+  744  cd LX2_ricardocarvajalt
+  745  ls
+  746  cd problema1
+  747  cd ..
+  748  cd problema2
+  749  ls
+  750  vim problema2.sh 
+  751  ls
+  752  git checkout master
+  753  git checkout proyecto_programado 
+  754  cd problema3
+  755  ls
+  756  vim problema3.sh 
+  757  cat Datos2
+  758  tail -n +4 Datos
+  759  clear
+  760  vim Datos
+  761  vim problema3.sh 
+  762  ./problema3.sh 
+  763  vim problema3.sh 
+  764  ./problema3.sh 
+  765  ls
+  766  cat Datos2
+  767  clear
+  768  vim Datos2
+  769  vim problema3.sh 
+  770  ./problema3.sh 
+  771  vim Datos2
   772  vim problema3.sh 
   773  ./problema3.sh 
   774  vim problema3.sh 
-  775  fg
-  776  ./problema3.sh 
-  777  vim problema3.sh 
-  778  ./problema3.sh 
-  779  vim problema3.sh 
-  780  ./problema3.sh 
-  781  ls
-  782  cat E
-  783  vim problema3.sh 
-  784  ./problema3.sh 
-  785  vim problema3.sh 
-  786  ./problema3.sh 
-  787  cat ERROR.log 
-  788  vim problema3.sh 
-  789  ./problema3.sh 
-  790  vim problema3.sh 
-  791  ./problema3.sh 
-  792  ls
-  793  vim problema3.sh 
-  794  ./problema3.sh 
+  775  ./problema3.sh 
+  776  ls
+  777  cat errorD.log 
+  778  vim problema3.sh 
+  779  ./problema3.sh 
+  780  vim problema3.sh 
+  781  ./problema3.sh 
+  782  vim problema3.sh 
+  783  ./problema3.sh 
+  784  vim problema3.sh 
+  785  ./problema3.sh 
+  786  vim problema3.sh 
+  787  fg
+  788  ./problema3.sh 
+  789  vim problema3.sh 
+  790  ./problema3.sh 
+  791  vim problema3.sh 
+  792  ./problema3.sh 
+  793  ls
+  794  cat E
   795  vim problema3.sh 
   796  ./problema3.sh 
   797  vim problema3.sh 
   798  ./problema3.sh 
-  799  vim Datos
+  799  cat ERROR.log 
   800  vim problema3.sh 
   801  ./problema3.sh 
   802  vim problema3.sh 
   803  ./problema3.sh 
-  804  vim problema3.sh 
-  805  ./problema3.sh 
-  806  vim problema3.sh 
-  807  ./problema3.sh 
-  808  vim problema3.sh 
-  809  ./problema3.sh 
-  810  vim problema3.sh 
-  811  ./problema3.sh 
+  804  ls
+  805  vim problema3.sh 
+  806  ./problema3.sh 
+  807  vim problema3.sh 
+  808  ./problema3.sh 
+  809  vim problema3.sh 
+  810  ./problema3.sh 
+  811  vim Datos
   812  vim problema3.sh 
   813  ./problema3.sh 
   814  vim problema3.sh 
@@ -857,13 +857,96 @@
   857  ./problema3.sh 
   858  vim problema3.sh 
   859  ./problema3.sh 
-  860  git status
-  861  git add Datos2 datos_graf/graf.dat problema3.sh error.log fig1.png
-  862  git rm datos.utf-8.out
-  863  git status
-  864  git commit -m "Problema3 Avance y gráfica lista :-)"
-  865  git push origin proyecto_programado 
-  866  cd ..
-  867  git checkout master
-  868  git status
-  869  history > history/history-$HOSTNAME
+  860  vim problema3.sh 
+  861  ./problema3.sh 
+  862  vim problema3.sh 
+  863  ./problema3.sh 
+  864  vim problema3.sh 
+  865  ./problema3.sh 
+  866  vim problema3.sh 
+  867  ./problema3.sh 
+  868  vim problema3.sh 
+  869  ./problema3.sh 
+  870  vim problema3.sh 
+  871  ./problema3.sh 
+  872  git status
+  873  git add Datos2 datos_graf/graf.dat problema3.sh error.log fig1.png
+  874  git rm datos.utf-8.out
+  875  git status
+  876  git commit -m "Problema3 Avance y gráfica lista :-)"
+  877  git push origin proyecto_programado 
+  878  cd ..
+  879  git checkout master
+  880  git status
+  881  history > history/history-$HOSTNAME
+  882  git status
+  883  git add history/history-ricato
+  884  git commit -m "History..."
+  885  git push origin master
+  886  git status
+  887  ls
+  888  top
+  889  top -bn1 
+  890  top -bn1 | grep "Cpu(s)"
+  891  top -bn1 | grep "Cpu(s)" | 
+  892  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+  893  grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}'
+  894  top
+  895  top -bn 2 -d 0.01 | grep '^%Cpu' | tail -n 1 | gawk '{print $2+$4+$6}'
+  896  `top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'`
+  897  top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'
+  898  top -b -n1 | grep "Cpu(s)" | awk '{print $9}'
+  899  top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}' 
+  900  top -b -n1 | grep "Cpu(s)" | awk '{print $4}' 
+  901  top -b -n1 | grep "Cpu(s)" | awk '{print $2 }' 
+  902  top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}' 
+  903  top -b -n2 | grep "Cpu(s)" | awk '{print $2 + $4}' 
+  904  
+  905  top -bn 1 | awk '{print $9}' | tail -n +8 | awk '{s+=$1} END {print s}'
+  906  ls
+  907  cd LX2_ricardocarvajalt/
+  908  ls 
+  909  cd src
+  910  ls
+  911  tree
+  912  cd ..
+  913  mkdir tareas
+  914  ls
+  915  cd tareas
+  916  vim liveplot.gnu
+  917  vim plot.sh
+  918  chmod 777 plot.sh 
+  919  ls
+  920  ./plot.sh 
+  921  ls
+  922  vim plot.sh
+  923  ./plot.sh 
+  924  cat plot.dat 
+  925  vim plot.sh
+  926  ./plot.sh 
+  927  vim plot.sh
+  928  ./plot.sh 
+  929  ls
+  930  vim liveplot.gnu 
+  931  ./plot.sh 
+  932  vim liveplot.gnu 
+  933  ./plot.sh 
+  934  vim liveplot.gnu 
+  935  vim plot.sh
+  936  ./plot.sh 
+  937  vim plot.sh
+  938  vim liveplot.gnu 
+  939  ./plot.sh 
+  940  vim liveplot.gnu 
+  941  vim plot.sh
+  942  ./plot.sh 
+  943  vim plot.sh
+  944  ./plot.sh 
+  945  vim plot.sh
+  946  cd ..
+  947  ls
+  948  cd tareas
+  949  ls
+  950  cd ..
+  951  tree
+  952  history > history/history-$HOSTNAME
